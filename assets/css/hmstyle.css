@@ -1,0 +1,170 @@
+
+
+html {
+	height: 100%;
+	width: 100%;
+	min-width: 650px;
+}
+
+body {
+	background: url(../images/greybackground.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+/*Header Formatting */
+.jumbotron {
+	height: 125px;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	background-color: grey;
+	margin-bottom: 15px;
+	background: url(../images/brick.png);
+	color: white;
+	font-family: Impact;
+}
+
+/*-------------------------------------------------------------*/
+/*For everything in the letter column*/
+.lettercolumn {
+	margin-left: 25px;
+	/*border-style: dotted;*/
+	height: 100%;
+	padding: 0px 0px 0px 5%;
+
+}
+
+.letter {
+    background-color: #4CAF50;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 30%;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 4px 2px 0px 0px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+.guesscolumn {
+	
+	/*border-style: dotted;*/
+	height: 400px;
+	padding: 0px 0px 0px 15px;
+}
+
+.guesstheword {
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	margin: 10px 0px 10px 0px;
+}
+
+.letters {
+	
+		
+}
+
+
+.blankletter {
+	position: relative;
+	font-weight: bold;
+	width: 75px;
+	top: 40px;
+	margin: 5px 5px 5px 5px;
+	font-size: 26px;
+	color: black;
+	float: left;
+	color: white;
+	border-bottom: solid; 
+}
+
+.guessedletter {
+	text-align: center;
+	font-weight: bold;
+	width: 20px;
+	margin: 32px 6px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 27px;
+	color: black;
+	float: left;
+	width: 9%;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------*/
+/*Holds images for the noose and correct guesses*/
+.hangcolumn {
+
+	/*border-style: dotted;*/
+	height: 100%;
+	padding: 25px 0px 0px 0px;
+
+}
+
+.noose {
+width: 100%;
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------*/
+@media screen and (max-width: 991px){
+
+.letter {
+    background-color: #4CAF50;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 10%;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 4px 2px 0px 0px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.noose {
+	width: 90%;
+	padding-left: 5%;
+}
+
+}
+
+
+
+
+
