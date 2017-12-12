@@ -5,11 +5,20 @@
 	<meta charset="utf-8">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/mushroom.ico" />
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/hmstyle.css">
 	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/javascript/game.js"></script>
+
+	<audio id="coin" src="assets/mp3/coin.wav" preload="auto"></audio>
+	<audio id="mario_hurt" src="assets/mp3/mario_hurt.wav" preload="auto"></audio>
+	<audio id="bowser_message" src="assets/mp3/bowser_message.wav" preload="auto"></audio>
+	<audio id="good_news" src="assets/mp3/good_news.wav" preload="auto"></audio>
+
+
 </head>
 <body>
 
@@ -37,9 +46,13 @@
 			<div class="col-md-4 guesscolumn">
 				
 				<p class="guesstheword">Guess the word!</p>
+				
 				<div class="letterguess"></div>
-				<div class="blankletter"></div>
+
 				<div class="score"></div>
+
+				<div class="usedLetters"> Used Letters: </div>
+				<div class="usedLetters2"></div>
 			</div>
 
 
@@ -48,7 +61,7 @@
 			<div class="col-md-3 hangcolumn">
 				
 				<div class="noose"></div>
-<!-- <img class= "noose" src="assets/images/noose_blank.png"> -->
+
 			</div>
 
 
@@ -56,13 +69,11 @@
 		
 	</div>
 
-<!-- 	<div class="container footerContainer">
-		<footer class="footer">
+
+	<footer class="footer">
 			
-				Footer Content!
-			
-		</footer>
-	</div> -->
+	</footer>
+
 
 
 
